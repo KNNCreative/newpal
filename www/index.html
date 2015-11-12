@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title></title>
+    <title>NewPal</title>
 
     <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet">
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
@@ -12,22 +12,50 @@
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
+
+    <style type="text/css" media="screen">
+    ot-publisher,ot-subscriber,ot-layout {
+        display: block;
+        overflow: hidden;
+    }
+    ot-layout {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+</style>
+
+
   </head>
-  <body ng-app="starter" animation="slide-left-right-ios7">
+  <body ng-app="starter" animation="slide-left-right-ios7" ng-controller="AppController">
     <div>
-       <div>
-           <ion-nav-bar class="bar-stable">
-               <ion-nav-back-button class="button-icon icon ion-ios-arrow-back">Back</ion-nav-back-button>
-           </ion-nav-bar>
-           <ion-nav-view></ion-nav-view>
-       </div>
+     <ion-nav-bar></ion-nav-bar>
+     <ion-nav-view>
+        <ion-view>
+          <ion-nav-buttons side="primary">
+            <button class="button" ng-click="new_pal()">
+              NewPal
+            </button>
+          </ion-nav-buttons>
+          <ion-content>testing..... ion-content</ion-content>
+        </ion-view>
+      </ion-nav-view>
     </div>
+
+    <!-- <script src="//static.opentok.com/v2/js/opentok.min.js" type="text/javascript" charset="utf-8"></script> -->
+    <script src="lib/jquery/dist/jquery.min.js"></script>
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <!-- <script src="lib/opentok-angular/opentok-angular.min.js"></script> -->
+    <!-- <script src="lib/opentok-layout-js/opentok-layout.min.js"></script> -->
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
+    <script src="lib/cordova/cordova.browser.js"></script>
+    <!-- <script src="lib/cordova/cordova.ios.js"></script> -->
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
