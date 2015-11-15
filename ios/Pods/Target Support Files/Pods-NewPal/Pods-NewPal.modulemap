@@ -1,0 +1,6 @@
+framework module Pods_NewPal {
+  umbrella header "Pods-NewPal-umbrella.h"
+
+  export *
+  module * { export * }
+}

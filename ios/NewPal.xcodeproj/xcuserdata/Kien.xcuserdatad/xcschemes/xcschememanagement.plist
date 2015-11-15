@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-NewPal.xcscheme</key>
+		<key>NewPal.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6F76A43E5F6E7A815E4F4B347077D7B3</key>
+		<key>9D8863131BF9358300D3730F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D8863291BF9358300D3730F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9D8863341BF9358300D3730F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
