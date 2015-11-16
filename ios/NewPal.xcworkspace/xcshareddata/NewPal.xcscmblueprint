@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C85A8E55EDDB232FA0C6B0E4B9359F16918904B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CEE117A0E658AE5CF6B6D735C8597739491A03E3" : 0,
+    "C85A8E55EDDB232FA0C6B0E4B9359F16918904B0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "AD72F472-EB94-46AB-B9AC-513C31E8C2BB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CEE117A0E658AE5CF6B6D735C8597739491A03E3" : "Opentok-HelloWorld-Swift\/",
+    "C85A8E55EDDB232FA0C6B0E4B9359F16918904B0" : "newpal\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NewPal",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/NewPal.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:KNNCreative\/newpal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C85A8E55EDDB232FA0C6B0E4B9359F16918904B0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:thepatrick\/Opentok-HelloWorld-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CEE117A0E658AE5CF6B6D735C8597739491A03E3"
+    }
+  ]
+}

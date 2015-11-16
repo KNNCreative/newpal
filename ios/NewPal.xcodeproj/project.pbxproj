@@ -3,75 +3,75 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D8863181BF9358300D3730F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8863171BF9358300D3730F /* AppDelegate.swift */; };
-		9D88631A1BF9358300D3730F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8863191BF9358300D3730F /* FirstViewController.swift */; };
-		9D88631C1BF9358300D3730F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88631B1BF9358300D3730F /* SecondViewController.swift */; };
-		9D88631F1BF9358300D3730F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D88631D1BF9358300D3730F /* Main.storyboard */; };
-		9D8863211BF9358300D3730F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D8863201BF9358300D3730F /* Assets.xcassets */; };
-		9D8863241BF9358300D3730F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D8863221BF9358300D3730F /* LaunchScreen.storyboard */; };
-		9D88632F1BF9358300D3730F /* NewPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D88632E1BF9358300D3730F /* NewPalTests.swift */; };
-		9D88633A1BF9358300D3730F /* NewPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8863391BF9358300D3730F /* NewPalUITests.swift */; };
-		D996BCCB36444A5117DA7446 /* Pods_NewPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C0C2484E112ADB6263B0DE /* Pods_NewPal.framework */; };
+		295FEA0C29379D5AD17BF1B4 /* Pods_NewPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B4E18A07E6CA6D72BDE88B /* Pods_NewPal.framework */; };
+		9DD15A541BFA76E600E564A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD15A531BFA76E600E564A3 /* AppDelegate.swift */; };
+		9DD15A561BFA76E600E564A3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD15A551BFA76E600E564A3 /* FirstViewController.swift */; };
+		9DD15A581BFA76E600E564A3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD15A571BFA76E600E564A3 /* SecondViewController.swift */; };
+		9DD15A601BFA76E700E564A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD15A5E1BFA76E700E564A3 /* LaunchScreen.storyboard */; };
+		9DD15A6B1BFA76E700E564A3 /* NewPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD15A6A1BFA76E700E564A3 /* NewPalTests.swift */; };
+		9DD15A761BFA76E700E564A3 /* NewPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD15A751BFA76E700E564A3 /* NewPalUITests.swift */; };
+		9DD15A851BFA798900E564A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD15A841BFA798900E564A3 /* Main.storyboard */; };
+		9DD15A871BFA79C300E564A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD15A861BFA79C300E564A3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9D88632B1BF9358300D3730F /* PBXContainerItemProxy */ = {
+		9DD15A671BFA76E700E564A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9D88630C1BF9358300D3730F /* Project object */;
+			containerPortal = 9DD15A481BFA76E600E564A3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D8863131BF9358300D3730F;
+			remoteGlobalIDString = 9DD15A4F1BFA76E600E564A3;
 			remoteInfo = NewPal;
 		};
-		9D8863361BF9358300D3730F /* PBXContainerItemProxy */ = {
+		9DD15A721BFA76E700E564A3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9D88630C1BF9358300D3730F /* Project object */;
+			containerPortal = 9DD15A481BFA76E600E564A3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D8863131BF9358300D3730F;
+			remoteGlobalIDString = 9DD15A4F1BFA76E600E564A3;
 			remoteInfo = NewPal;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		71E8CAA5593F7911D07C4CB3 /* Pods-NewPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewPal/Pods-NewPal.release.xcconfig"; sourceTree = "<group>"; };
-		9B551F9D1663E39D7FA2A6B4 /* Pods-NewPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewPal/Pods-NewPal.debug.xcconfig"; sourceTree = "<group>"; };
-		9D8863141BF9358300D3730F /* NewPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D8863171BF9358300D3730F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9D8863191BF9358300D3730F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9D88631B1BF9358300D3730F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		9D88631E1BF9358300D3730F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9D8863201BF9358300D3730F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D8863231BF9358300D3730F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9D8863251BF9358300D3730F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D88632A1BF9358300D3730F /* NewPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D88632E1BF9358300D3730F /* NewPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPalTests.swift; sourceTree = "<group>"; };
-		9D8863301BF9358300D3730F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D8863351BF9358300D3730F /* NewPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D8863391BF9358300D3730F /* NewPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPalUITests.swift; sourceTree = "<group>"; };
-		9D88633B1BF9358300D3730F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5C0C2484E112ADB6263B0DE /* Pods_NewPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8FEED0096E3EDBE0EFDE53 /* Pods-NewPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewPal/Pods-NewPal.debug.xcconfig"; sourceTree = "<group>"; };
+		9DD15A501BFA76E600E564A3 /* NewPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD15A531BFA76E600E564A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DD15A551BFA76E600E564A3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		9DD15A571BFA76E600E564A3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9DD15A5F1BFA76E700E564A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DD15A611BFA76E700E564A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD15A661BFA76E700E564A3 /* NewPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD15A6A1BFA76E700E564A3 /* NewPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPalTests.swift; sourceTree = "<group>"; };
+		9DD15A6C1BFA76E700E564A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD15A711BFA76E700E564A3 /* NewPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD15A751BFA76E700E564A3 /* NewPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPalUITests.swift; sourceTree = "<group>"; };
+		9DD15A771BFA76E700E564A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD15A831BFA798900E564A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DD15A861BFA79C300E564A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "../../../Opentok-HelloWorld-Swift/HelloWorld/Images.xcassets"; sourceTree = "<group>"; };
+		9F1BD83ECBB576B44AF02218 /* Pods-NewPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewPal/Pods-NewPal.release.xcconfig"; sourceTree = "<group>"; };
+		C6B4E18A07E6CA6D72BDE88B /* Pods_NewPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9D8863111BF9358300D3730F /* Frameworks */ = {
+		9DD15A4D1BFA76E600E564A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D996BCCB36444A5117DA7446 /* Pods_NewPal.framework in Frameworks */,
+				295FEA0C29379D5AD17BF1B4 /* Pods_NewPal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8863271BF9358300D3730F /* Frameworks */ = {
+		9DD15A631BFA76E700E564A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8863321BF9358300D3730F /* Frameworks */ = {
+		9DD15A6E1BFA76E700E564A3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,90 +81,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34760EB0BBF46B639E8D965F /* Pods */ = {
+		404F62712A105D6B1A3E3B26 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9B551F9D1663E39D7FA2A6B4 /* Pods-NewPal.debug.xcconfig */,
-				71E8CAA5593F7911D07C4CB3 /* Pods-NewPal.release.xcconfig */,
+				3D8FEED0096E3EDBE0EFDE53 /* Pods-NewPal.debug.xcconfig */,
+				9F1BD83ECBB576B44AF02218 /* Pods-NewPal.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		9D88630B1BF9358300D3730F = {
+		955557A5E056A5A6B9DDBF26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9D8863161BF9358300D3730F /* NewPal */,
-				9D88632D1BF9358300D3730F /* NewPalTests */,
-				9D8863381BF9358300D3730F /* NewPalUITests */,
-				9D8863151BF9358300D3730F /* Products */,
-				34760EB0BBF46B639E8D965F /* Pods */,
-				D7D416575157B171633C7816 /* Frameworks */,
+				C6B4E18A07E6CA6D72BDE88B /* Pods_NewPal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DD15A471BFA76E600E564A3 = {
+			isa = PBXGroup;
+			children = (
+				9DD15A521BFA76E600E564A3 /* NewPal */,
+				9DD15A691BFA76E700E564A3 /* NewPalTests */,
+				9DD15A741BFA76E700E564A3 /* NewPalUITests */,
+				9DD15A511BFA76E600E564A3 /* Products */,
+				404F62712A105D6B1A3E3B26 /* Pods */,
+				955557A5E056A5A6B9DDBF26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		9D8863151BF9358300D3730F /* Products */ = {
+		9DD15A511BFA76E600E564A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D8863141BF9358300D3730F /* NewPal.app */,
-				9D88632A1BF9358300D3730F /* NewPalTests.xctest */,
-				9D8863351BF9358300D3730F /* NewPalUITests.xctest */,
+				9DD15A501BFA76E600E564A3 /* NewPal.app */,
+				9DD15A661BFA76E700E564A3 /* NewPalTests.xctest */,
+				9DD15A711BFA76E700E564A3 /* NewPalUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D8863161BF9358300D3730F /* NewPal */ = {
+		9DD15A521BFA76E600E564A3 /* NewPal */ = {
 			isa = PBXGroup;
 			children = (
-				9D8863171BF9358300D3730F /* AppDelegate.swift */,
-				9D8863191BF9358300D3730F /* FirstViewController.swift */,
-				9D88631B1BF9358300D3730F /* SecondViewController.swift */,
-				9D88631D1BF9358300D3730F /* Main.storyboard */,
-				9D8863201BF9358300D3730F /* Assets.xcassets */,
-				9D8863221BF9358300D3730F /* LaunchScreen.storyboard */,
-				9D8863251BF9358300D3730F /* Info.plist */,
+				9DD15A841BFA798900E564A3 /* Main.storyboard */,
+				9DD15A531BFA76E600E564A3 /* AppDelegate.swift */,
+				9DD15A551BFA76E600E564A3 /* FirstViewController.swift */,
+				9DD15A571BFA76E600E564A3 /* SecondViewController.swift */,
+				9DD15A861BFA79C300E564A3 /* Images.xcassets */,
+				9DD15A5E1BFA76E700E564A3 /* LaunchScreen.storyboard */,
+				9DD15A611BFA76E700E564A3 /* Info.plist */,
 			);
 			path = NewPal;
 			sourceTree = "<group>";
 		};
-		9D88632D1BF9358300D3730F /* NewPalTests */ = {
+		9DD15A691BFA76E700E564A3 /* NewPalTests */ = {
 			isa = PBXGroup;
 			children = (
-				9D88632E1BF9358300D3730F /* NewPalTests.swift */,
-				9D8863301BF9358300D3730F /* Info.plist */,
+				9DD15A6A1BFA76E700E564A3 /* NewPalTests.swift */,
+				9DD15A6C1BFA76E700E564A3 /* Info.plist */,
 			);
 			path = NewPalTests;
 			sourceTree = "<group>";
 		};
-		9D8863381BF9358300D3730F /* NewPalUITests */ = {
+		9DD15A741BFA76E700E564A3 /* NewPalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9D8863391BF9358300D3730F /* NewPalUITests.swift */,
-				9D88633B1BF9358300D3730F /* Info.plist */,
+				9DD15A751BFA76E700E564A3 /* NewPalUITests.swift */,
+				9DD15A771BFA76E700E564A3 /* Info.plist */,
 			);
 			path = NewPalUITests;
-			sourceTree = "<group>";
-		};
-		D7D416575157B171633C7816 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D5C0C2484E112ADB6263B0DE /* Pods_NewPal.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D8863131BF9358300D3730F /* NewPal */ = {
+		9DD15A4F1BFA76E600E564A3 /* NewPal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D88633E1BF9358300D3730F /* Build configuration list for PBXNativeTarget "NewPal" */;
+			buildConfigurationList = 9DD15A7A1BFA76E700E564A3 /* Build configuration list for PBXNativeTarget "NewPal" */;
 			buildPhases = (
-				4C64DF4DEFE09A4F55B7E006 /* Check Pods Manifest.lock */,
-				9D8863101BF9358300D3730F /* Sources */,
-				9D8863111BF9358300D3730F /* Frameworks */,
-				9D8863121BF9358300D3730F /* Resources */,
-				01F76EE85F0C8CB44596AACC /* Embed Pods Frameworks */,
-				126A7E1E01367FEE62565CA7 /* Copy Pods Resources */,
+				2D6FD36C62E75158955694A3 /* Check Pods Manifest.lock */,
+				9DD15A4C1BFA76E600E564A3 /* Sources */,
+				9DD15A4D1BFA76E600E564A3 /* Frameworks */,
+				9DD15A4E1BFA76E600E564A3 /* Resources */,
+				485E44C638454EE93BE99E06 /* Embed Pods Frameworks */,
+				A2CC7AEAD48DF43FE5021D60 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,107 +172,107 @@
 			);
 			name = NewPal;
 			productName = NewPal;
-			productReference = 9D8863141BF9358300D3730F /* NewPal.app */;
+			productReference = 9DD15A501BFA76E600E564A3 /* NewPal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D8863291BF9358300D3730F /* NewPalTests */ = {
+		9DD15A651BFA76E700E564A3 /* NewPalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D8863411BF9358300D3730F /* Build configuration list for PBXNativeTarget "NewPalTests" */;
+			buildConfigurationList = 9DD15A7D1BFA76E700E564A3 /* Build configuration list for PBXNativeTarget "NewPalTests" */;
 			buildPhases = (
-				9D8863261BF9358300D3730F /* Sources */,
-				9D8863271BF9358300D3730F /* Frameworks */,
-				9D8863281BF9358300D3730F /* Resources */,
+				9DD15A621BFA76E700E564A3 /* Sources */,
+				9DD15A631BFA76E700E564A3 /* Frameworks */,
+				9DD15A641BFA76E700E564A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D88632C1BF9358300D3730F /* PBXTargetDependency */,
+				9DD15A681BFA76E700E564A3 /* PBXTargetDependency */,
 			);
 			name = NewPalTests;
 			productName = NewPalTests;
-			productReference = 9D88632A1BF9358300D3730F /* NewPalTests.xctest */;
+			productReference = 9DD15A661BFA76E700E564A3 /* NewPalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9D8863341BF9358300D3730F /* NewPalUITests */ = {
+		9DD15A701BFA76E700E564A3 /* NewPalUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D8863441BF9358300D3730F /* Build configuration list for PBXNativeTarget "NewPalUITests" */;
+			buildConfigurationList = 9DD15A801BFA76E700E564A3 /* Build configuration list for PBXNativeTarget "NewPalUITests" */;
 			buildPhases = (
-				9D8863311BF9358300D3730F /* Sources */,
-				9D8863321BF9358300D3730F /* Frameworks */,
-				9D8863331BF9358300D3730F /* Resources */,
+				9DD15A6D1BFA76E700E564A3 /* Sources */,
+				9DD15A6E1BFA76E700E564A3 /* Frameworks */,
+				9DD15A6F1BFA76E700E564A3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9D8863371BF9358300D3730F /* PBXTargetDependency */,
+				9DD15A731BFA76E700E564A3 /* PBXTargetDependency */,
 			);
 			name = NewPalUITests;
 			productName = NewPalUITests;
-			productReference = 9D8863351BF9358300D3730F /* NewPalUITests.xctest */;
+			productReference = 9DD15A711BFA76E700E564A3 /* NewPalUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9D88630C1BF9358300D3730F /* Project object */ = {
+		9DD15A481BFA76E600E564A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "KNN Creative";
 				TargetAttributes = {
-					9D8863131BF9358300D3730F = {
+					9DD15A4F1BFA76E600E564A3 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
-					9D8863291BF9358300D3730F = {
+					9DD15A651BFA76E700E564A3 = {
 						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 9D8863131BF9358300D3730F;
+						TestTargetID = 9DD15A4F1BFA76E600E564A3;
 					};
-					9D8863341BF9358300D3730F = {
+					9DD15A701BFA76E700E564A3 = {
 						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 9D8863131BF9358300D3730F;
+						TestTargetID = 9DD15A4F1BFA76E600E564A3;
 					};
 				};
 			};
-			buildConfigurationList = 9D88630F1BF9358300D3730F /* Build configuration list for PBXProject "NewPal" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 9DD15A4B1BFA76E600E564A3 /* Build configuration list for PBXProject "NewPal" */;
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 9D88630B1BF9358300D3730F;
-			productRefGroup = 9D8863151BF9358300D3730F /* Products */;
+			mainGroup = 9DD15A471BFA76E600E564A3;
+			productRefGroup = 9DD15A511BFA76E600E564A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D8863131BF9358300D3730F /* NewPal */,
-				9D8863291BF9358300D3730F /* NewPalTests */,
-				9D8863341BF9358300D3730F /* NewPalUITests */,
+				9DD15A4F1BFA76E600E564A3 /* NewPal */,
+				9DD15A651BFA76E700E564A3 /* NewPalTests */,
+				9DD15A701BFA76E700E564A3 /* NewPalUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9D8863121BF9358300D3730F /* Resources */ = {
+		9DD15A4E1BFA76E600E564A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D8863241BF9358300D3730F /* LaunchScreen.storyboard in Resources */,
-				9D8863211BF9358300D3730F /* Assets.xcassets in Resources */,
-				9D88631F1BF9358300D3730F /* Main.storyboard in Resources */,
+				9DD15A601BFA76E700E564A3 /* LaunchScreen.storyboard in Resources */,
+				9DD15A871BFA79C300E564A3 /* Images.xcassets in Resources */,
+				9DD15A851BFA798900E564A3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8863281BF9358300D3730F /* Resources */ = {
+		9DD15A641BFA76E700E564A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8863331BF9358300D3730F /* Resources */ = {
+		9DD15A6F1BFA76E700E564A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,37 +282,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01F76EE85F0C8CB44596AACC /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewPal/Pods-NewPal-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		126A7E1E01367FEE62565CA7 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewPal/Pods-NewPal-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4C64DF4DEFE09A4F55B7E006 /* Check Pods Manifest.lock */ = {
+		2D6FD36C62E75158955694A3 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,71 +297,102 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		485E44C638454EE93BE99E06 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewPal/Pods-NewPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2CC7AEAD48DF43FE5021D60 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewPal/Pods-NewPal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9D8863101BF9358300D3730F /* Sources */ = {
+		9DD15A4C1BFA76E600E564A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D88631C1BF9358300D3730F /* SecondViewController.swift in Sources */,
-				9D8863181BF9358300D3730F /* AppDelegate.swift in Sources */,
-				9D88631A1BF9358300D3730F /* FirstViewController.swift in Sources */,
+				9DD15A581BFA76E600E564A3 /* SecondViewController.swift in Sources */,
+				9DD15A541BFA76E600E564A3 /* AppDelegate.swift in Sources */,
+				9DD15A561BFA76E600E564A3 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8863261BF9358300D3730F /* Sources */ = {
+		9DD15A621BFA76E700E564A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D88632F1BF9358300D3730F /* NewPalTests.swift in Sources */,
+				9DD15A6B1BFA76E700E564A3 /* NewPalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D8863311BF9358300D3730F /* Sources */ = {
+		9DD15A6D1BFA76E700E564A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D88633A1BF9358300D3730F /* NewPalUITests.swift in Sources */,
+				9DD15A761BFA76E700E564A3 /* NewPalUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9D88632C1BF9358300D3730F /* PBXTargetDependency */ = {
+		9DD15A681BFA76E700E564A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9D8863131BF9358300D3730F /* NewPal */;
-			targetProxy = 9D88632B1BF9358300D3730F /* PBXContainerItemProxy */;
+			target = 9DD15A4F1BFA76E600E564A3 /* NewPal */;
+			targetProxy = 9DD15A671BFA76E700E564A3 /* PBXContainerItemProxy */;
 		};
-		9D8863371BF9358300D3730F /* PBXTargetDependency */ = {
+		9DD15A731BFA76E700E564A3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9D8863131BF9358300D3730F /* NewPal */;
-			targetProxy = 9D8863361BF9358300D3730F /* PBXContainerItemProxy */;
+			target = 9DD15A4F1BFA76E600E564A3 /* NewPal */;
+			targetProxy = 9DD15A721BFA76E700E564A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9D88631D1BF9358300D3730F /* Main.storyboard */ = {
+		9DD15A5E1BFA76E700E564A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9D88631E1BF9358300D3730F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9D8863221BF9358300D3730F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D8863231BF9358300D3730F /* Base */,
+				9DD15A5F1BFA76E700E564A3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9DD15A841BFA798900E564A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD15A831BFA798900E564A3 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "../../../Opentok-HelloWorld-Swift/HelloWorld";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9D88633C1BF9358300D3730F /* Debug */ = {
+		9DD15A781BFA76E700E564A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -427,7 +428,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -436,7 +437,7 @@
 			};
 			name = Debug;
 		};
-		9D88633D1BF9358300D3730F /* Release */ = {
+		9DD15A791BFA76E700E564A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -466,7 +467,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -474,31 +475,37 @@
 			};
 			name = Release;
 		};
-		9D88633F1BF9358300D3730F /* Debug */ = {
+		9DD15A7B1BFA76E700E564A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B551F9D1663E39D7FA2A6B4 /* Pods-NewPal.debug.xcconfig */;
+			baseConfigurationReference = 3D8FEED0096E3EDBE0EFDE53 /* Pods-NewPal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NewPal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.knncreative.NewPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewPal-Bridging-Header.h";
 			};
 			name = Debug;
 		};
-		9D8863401BF9358300D3730F /* Release */ = {
+		9DD15A7C1BFA76E700E564A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71E8CAA5593F7911D07C4CB3 /* Pods-NewPal.release.xcconfig */;
+			baseConfigurationReference = 9F1BD83ECBB576B44AF02218 /* Pods-NewPal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NewPal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.knncreative.NewPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewPal-Bridging-Header.h";
 			};
 			name = Release;
 		};
-		9D8863421BF9358300D3730F /* Debug */ = {
+		9DD15A7E1BFA76E700E564A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,7 +517,7 @@
 			};
 			name = Debug;
 		};
-		9D8863431BF9358300D3730F /* Release */ = {
+		9DD15A7F1BFA76E700E564A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,7 +529,7 @@
 			};
 			name = Release;
 		};
-		9D8863451BF9358300D3730F /* Debug */ = {
+		9DD15A811BFA76E700E564A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = NewPalUITests/Info.plist;
@@ -534,7 +541,7 @@
 			};
 			name = Debug;
 		};
-		9D8863461BF9358300D3730F /* Release */ = {
+		9DD15A821BFA76E700E564A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = NewPalUITests/Info.plist;
@@ -549,43 +556,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D88630F1BF9358300D3730F /* Build configuration list for PBXProject "NewPal" */ = {
+		9DD15A4B1BFA76E600E564A3 /* Build configuration list for PBXProject "NewPal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D88633C1BF9358300D3730F /* Debug */,
-				9D88633D1BF9358300D3730F /* Release */,
+				9DD15A781BFA76E700E564A3 /* Debug */,
+				9DD15A791BFA76E700E564A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D88633E1BF9358300D3730F /* Build configuration list for PBXNativeTarget "NewPal" */ = {
+		9DD15A7A1BFA76E700E564A3 /* Build configuration list for PBXNativeTarget "NewPal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D88633F1BF9358300D3730F /* Debug */,
-				9D8863401BF9358300D3730F /* Release */,
+				9DD15A7B1BFA76E700E564A3 /* Debug */,
+				9DD15A7C1BFA76E700E564A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D8863411BF9358300D3730F /* Build configuration list for PBXNativeTarget "NewPalTests" */ = {
+		9DD15A7D1BFA76E700E564A3 /* Build configuration list for PBXNativeTarget "NewPalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D8863421BF9358300D3730F /* Debug */,
-				9D8863431BF9358300D3730F /* Release */,
+				9DD15A7E1BFA76E700E564A3 /* Debug */,
+				9DD15A7F1BFA76E700E564A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D8863441BF9358300D3730F /* Build configuration list for PBXNativeTarget "NewPalUITests" */ = {
+		9DD15A801BFA76E700E564A3 /* Build configuration list for PBXNativeTarget "NewPalUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D8863451BF9358300D3730F /* Debug */,
-				9D8863461BF9358300D3730F /* Release */,
+				9DD15A811BFA76E700E564A3 /* Debug */,
+				9DD15A821BFA76E700E564A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9D88630C1BF9358300D3730F /* Project object */;
+	rootObject = 9DD15A481BFA76E600E564A3 /* Project object */;
 }

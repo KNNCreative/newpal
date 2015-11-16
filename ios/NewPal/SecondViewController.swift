@@ -2,55 +2,24 @@
 ////  SecondViewController.swift
 ////  NewPal
 ////
-////  Created by Kien Pham on 11/15/15.
+////  Created by Kien Pham on 11/16/15.
 ////  Copyright © 2015 KNN Creative. All rights reserved.
 ////
-//
-//import UIKit
-//
-//class SecondViewController: UIViewController {
-//
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        // Do any additional setup after loading the view, typically from a nib.
-//    }
-//
-//    override func didReceiveMemoryWarning() {
-//        super.didReceiveMemoryWarning()
-//        // Dispose of any resources that can be recreated.
-//    }
-//
-//
-//}
-//
-
-
-//
-//  ViewController.swift
-//  HelloWorld
-//
-//  Created by Patrick Quinn-Graham on 3/06/2014.
-//  Copyright (c) 2014 TokBox, Inc. All rights reserved.
-//
 
 import UIKit
 
 let videoWidth : CGFloat = 320
 let videoHeight : CGFloat = 240
 
-// *** Fill the following variables using your own Project info  ***
-// ***          https://dashboard.tokbox.com/projects            ***
-// Replace with your OpenTok API key
+
 let ApiKey = "45404892"
-// Replace with your generated session ID
 let SessionID = "2_MX40NTQwNDg5Mn5-MTQ0NzQ0NTA3MDI5MX5PUGtXUDFFVG50cDRabmZ6Y2h4aE5vWUR-UH4"
-// Replace with your generated token
 let Token = "T1==cGFydG5lcl9pZD00NTQwNDg5MiZzaWc9YWQ4NWUyNzA4YTI4NzM3MmQ5ZjMxNjE0NGM5Njc2YTI3Yzk5YjAyMTpyb2xlPXB1Ymxpc2hlciZzZXNzaW9uX2lkPTJfTVg0ME5UUXdORGc1TW41LU1UUTBOelEwTlRBM01ESTVNWDVQVUd0WFVERkZWRzUwY0RSYWJtWjZZMmg0YUU1dldVUi1VSDQmY3JlYXRlX3RpbWU9MTQ0NzQ0Njk3MCZub25jZT0wLjA4ODI4MzcwMTcxOTAzOTQzJmV4cGlyZV90aW1lPTE0NTAwMzg2NTEmY29ubmVjdGlvbl9kYXRhPQ=="
 
 // Change to YES to subscribe to your own stream.
 let SubscribeToSelf = false
 
-class ViewController: UIViewController, OTSessionDelegate, OTSubscriberKitDelegate, OTPublisherDelegate {
+class SecondViewController: UIViewController, OTSessionDelegate, OTSubscriberKitDelegate, OTPublisherDelegate {
     
     var session : OTSession?
     var publisher : OTPublisher?

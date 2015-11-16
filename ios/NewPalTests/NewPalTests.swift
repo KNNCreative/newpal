@@ -2,7 +2,7 @@
 //  NewPalTests.swift
 //  NewPalTests
 //
-//  Created by Kien Pham on 11/15/15.
+//  Created by Kien Pham on 11/16/15.
 //  Copyright © 2015 KNN Creative. All rights reserved.
 //
 

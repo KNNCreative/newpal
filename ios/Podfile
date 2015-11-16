@@ -1,7 +1,11 @@
-platform :ios, '7.0'
+platform :ios, '8.0'
 use_frameworks!
 
 target 'NewPal' do
-  pod 'OpenTok', '~> 2.6' 
+  pod 'OpenTok', '~> 2.6'
+  # pod 'Parse', '~> 1.9'
+  # pod 'RestEssentials', '~> 0.1'
+  # pod 'RestKit', '~> 0.26'
+  # pod 'Motif'
+  # pod 'ChameleonFramework/Swift'
 end
-

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D8863131BF9358300D3730F"
+               BlueprintIdentifier = "9DD15A4F1BFA76E600E564A3"
                BuildableName = "NewPal.app"
                BlueprintName = "NewPal"
                ReferencedContainer = "container:NewPal.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D8863291BF9358300D3730F"
+               BlueprintIdentifier = "9DD15A651BFA76E700E564A3"
                BuildableName = "NewPalTests.xctest"
                BlueprintName = "NewPalTests"
                ReferencedContainer = "container:NewPal.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D8863341BF9358300D3730F"
+               BlueprintIdentifier = "9DD15A701BFA76E700E564A3"
                BuildableName = "NewPalUITests.xctest"
                BlueprintName = "NewPalUITests"
                ReferencedContainer = "container:NewPal.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D8863131BF9358300D3730F"
+            BlueprintIdentifier = "9DD15A4F1BFA76E600E564A3"
             BuildableName = "NewPal.app"
             BlueprintName = "NewPal"
             ReferencedContainer = "container:NewPal.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D8863131BF9358300D3730F"
+            BlueprintIdentifier = "9DD15A4F1BFA76E600E564A3"
             BuildableName = "NewPal.app"
             BlueprintName = "NewPal"
             ReferencedContainer = "container:NewPal.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9D8863131BF9358300D3730F"
+            BlueprintIdentifier = "9DD15A4F1BFA76E600E564A3"
             BuildableName = "NewPal.app"
             BlueprintName = "NewPal"
             ReferencedContainer = "container:NewPal.xcodeproj">
