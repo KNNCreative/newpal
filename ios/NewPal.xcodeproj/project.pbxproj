@@ -223,6 +223,7 @@
 				TargetAttributes = {
 					9DD15A4F1BFA76E600E564A3 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 5FW78LEGP5;
 					};
 					9DD15A651BFA76E700E564A3 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -481,10 +482,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NewPal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.knncreative.NewPal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knncreative.newpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NewPal-Bridging-Header.h";
 			};
@@ -496,10 +498,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = NewPal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.knncreative.NewPal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knncreative.newpal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NewPal-Bridging-Header.h";
 			};
