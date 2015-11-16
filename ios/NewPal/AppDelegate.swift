@@ -32,20 +32,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    func applicationDidFinishLaunching(application: UIApplication) {
-        <#code#>
-    }
     
-//    func applicationDidFinishLaunching(application: UIApplication) {
-//        let dimensions = [
-//            "category" : "politics",    // What type of news is this?
-//            "dayType" : "weekday"     // Is it a weekday or the weekend?
-//        ]
-//        
-//        // Send the dimensions to Parse along with the 'read' event
-//        PFAnalytics.trackEvent("read", dimensions: dimensions)
-//        print("Event recorded at applicationDidFinishLaunching")
-//    }
+    func applicationDidFinishLaunching(application: UIApplication) {
+        let dimensions = [
+            "category" : "politics",    // What type of news is this?
+            "dayType" : "weekday"     // Is it a weekday or the weekend?
+        ]
+        
+        // Send the dimensions to Parse along with the 'read' event
+        PFAnalytics.trackEvent("read", dimensions: dimensions)
+        print("Event recorded at applicationDidFinishLaunching")
+    }
     
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
