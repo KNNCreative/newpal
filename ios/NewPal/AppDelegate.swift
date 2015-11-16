@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Parse
+import Bolts
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,10 +18,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        Parse.enableLocalDatastore()
+        
+        // Initialize Parse.
+        Parse.setApplicationId("s1RXnMR55MkUxxNSclF89k0lNKZ7bUdNBe2K5bNM",
+            clientKey: "gJARgkuVmE7Ne1IQXSImDu97qR9VQLGPWs3VUmNw")
+        
+        // [Optional] Track statistics around application opens.
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+
+
         return true
     }
 
+    func applicationDidFinishLaunching(application: UIApplication) {
+        <#code#>
+    }
+    
+//    func applicationDidFinishLaunching(application: UIApplication) {
+//        let dimensions = [
+//            "category" : "politics",    // What type of news is this?
+//            "dayType" : "weekday"     // Is it a weekday or the weekend?
+//        ]
+//        
+//        // Send the dimensions to Parse along with the 'read' event
+//        PFAnalytics.trackEvent("read", dimensions: dimensions)
+//        print("Event recorded at applicationDidFinishLaunching")
+//    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
