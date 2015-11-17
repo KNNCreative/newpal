@@ -4,6 +4,7 @@ use_frameworks!
 target 'NewPal' do
   pod 'OpenTok', '~> 2.6'
   pod 'Parse', '~> 1.9'
+  # pod 'SwiftLocation'
   # pod 'RestEssentials', '~> 0.1'
   # pod 'RestKit', '~> 0.26'
   # pod 'Motif'

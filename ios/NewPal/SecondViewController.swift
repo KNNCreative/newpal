@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 let videoWidth : CGFloat = 320
 let videoHeight : CGFloat = 240
 
@@ -19,22 +20,34 @@ let Token = "T1==cGFydG5lcl9pZD00NTQwNDg5MiZzaWc9YWQ4NWUyNzA4YTI4NzM3MmQ5ZjMxNjE
 // Change to YES to subscribe to your own stream.
 let SubscribeToSelf = false
 
+
+
 class SecondViewController: UIViewController, OTSessionDelegate, OTSubscriberKitDelegate, OTPublisherDelegate {
+
+//    let locationManager = CLLocationManager()
     
     var session : OTSession?
     var publisher : OTPublisher?
     var subscriber : OTSubscriber?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Step 1: As the view is loaded initialize a new instance of OTSession
         session = OTSession(apiKey: ApiKey, sessionId: SessionID, delegate: self)
+        
+
+        
     }
     
     override func viewWillAppear(animated: Bool) {
         // Step 2: As the view comes into the foreground, begin the connection process.
         doConnect()
+    
+        
+        
+        
     }
     
     override func prefersStatusBarHidden() -> Bool {

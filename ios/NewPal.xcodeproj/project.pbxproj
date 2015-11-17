@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		295FEA0C29379D5AD17BF1B4 /* Pods_NewPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B4E18A07E6CA6D72BDE88B /* Pods_NewPal.framework */; };
+		9D167C251BFAA6A900B0A08F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D167C241BFAA6A900B0A08F /* CoreLocation.framework */; };
+		9D167C271BFAA73000B0A08F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D167C261BFAA73000B0A08F /* MapKit.framework */; };
 		9DD15A541BFA76E600E564A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD15A531BFA76E600E564A3 /* AppDelegate.swift */; };
 		9DD15A561BFA76E600E564A3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD15A551BFA76E600E564A3 /* FirstViewController.swift */; };
 		9DD15A581BFA76E600E564A3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD15A571BFA76E600E564A3 /* SecondViewController.swift */; };
@@ -37,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		3D8FEED0096E3EDBE0EFDE53 /* Pods-NewPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewPal/Pods-NewPal.debug.xcconfig"; sourceTree = "<group>"; };
+		9D167C241BFAA6A900B0A08F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9D167C261BFAA73000B0A08F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9DD15A501BFA76E600E564A3 /* NewPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DD15A531BFA76E600E564A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DD15A551BFA76E600E564A3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D167C271BFAA73000B0A08F /* MapKit.framework in Frameworks */,
+				9D167C251BFAA6A900B0A08F /* CoreLocation.framework in Frameworks */,
 				295FEA0C29379D5AD17BF1B4 /* Pods_NewPal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,6 +99,8 @@
 		955557A5E056A5A6B9DDBF26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9D167C261BFAA73000B0A08F /* MapKit.framework */,
+				9D167C241BFAA6A900B0A08F /* CoreLocation.framework */,
 				C6B4E18A07E6CA6D72BDE88B /* Pods_NewPal.framework */,
 			);
 			name = Frameworks;
